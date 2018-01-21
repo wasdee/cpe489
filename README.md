@@ -20,6 +20,8 @@ MATH: dot product between an image and a small image(filter, template, matrix or
 
 #### blur
 mean blur treat every squares equal
+  |   |   |   |  
+--|---|---|---|--
 1  |  1 |  1 |  1 |  1
 1  |  1 | 1  |  1 |  1
 1  | 1  | 1  | 1  |  1
@@ -27,6 +29,8 @@ mean blur treat every squares equal
 1  |  1 |  1 | 1  |  1
 
 gaussian blur treat central pixel more heavy than the conner/boarder pixel.
+|   |   |   |  
+--|---|---|---|--
 1  |  1 |  1 |  1 |  1
 1  |  2 | 3  |  2 |  1
 1  | 3  | 4  | 3  |  1
